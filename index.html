@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--meta name="viewport" se usa para RWD  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C.V. - Marcelo E. Altamirano</title>
+    <link rel="icon"  type="image/x-icon" href="img/cv1.ico">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+    <!--Definición de fuente  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kulim+Park:wght@200&display=swap" rel="stylesheet">    
+    
+
+    <meta property="og:title" content="CV Marcelo E. Altamirano"/>  
+    <meta property="og:type"  content="Documento"/>  
+    <meta property="og:url"   content="www.nolase.com">  
+    <meta property="og:image" content="www.nolase.com/img/cv1.gif">  
+    <meta property="og:description" content="Currículum Vitae de Marcelo E. Altamirano - Desarrllador Senior de Sistemas - Próximo desarrollador web">  
+ 
+
+    <style>
+        .container {
+          position: relative;
+        }
+        
+        .center {
+          position: absolute;
+          top: 50%;
+          width: 25%;
+          text-align: center;
+          font-size: 18px;
+        }
+        
+        img { 
+          width: 15%;
+          height: auto;
+          border-radius: 50%;
+        }
+
+        .wrapper {
+                display: flex;
+                flex-wrap: wrap;
+                }
+        .wrapper > div {
+                flex: 1 1 200px;
+                }   
+                
+        .table {
+                    width: 100%;
+                }       
+        </style>    
+
+</head>
+<body id="cuerpo">
+    <!-- Ubicación de los script -->
+    <script src="js/function.js"></script>
+    <!-- Ubicación de los script -->
+
+    <button type="button" id="boton1" onclick="cambioClass()" >Cambiar Color de Fondo</button>        
+
+  <br>
+    <table border="1">
+        <tr>
+           <th colspan="10" class="ccolor2" text-align: center >
+            <h1>Currículum Vitae</h1>
+          </th>
+ 
+           <th>
+            <div class="container ccolor2" style="width:100%";  >
+                <img src="img/maraltam.jpg" alt="Marcelo Altamirano"
+                   width=100% height=100% position: absolute 
+                   style=" min-width: 110px;" >
+             </div>
+           </th>
+
+        </tr>
+
+    </table>
+<!-- Información Personal-->
+    <table border="3">
+        <tr>
+            <th rowspan="7" class="ccolor1" > <h2>Información Personal</h2> </th> 
+            <th>Apellido y Nombres</th>
+            <th ><div id="apenom" >ALTAMIRANO, MARCELO ERICO</div>  
+            </th>    
+        </tr>
+        <tr>
+            <th>Fecha de Nacimiento</th>
+            <th>17/06/1967 </th>    
+        </tr>
+        <tr>
+            <th>Estado Civil</th>
+            <th>Casado </th>    
+        </tr>
+        <tr>
+            <th>D.N.I.</th>
+            <th>18.506.572 </th>    
+        </tr>
+        <tr>
+            <th>Dirección</th>
+            <th>Los Aromos 3145 - San Nicolás - Buenos Aires - Argentina</th>    
+        </tr>
+        <tr>
+            <th>Teléfono</th>
+            <th>+54 9 336 4664029</th>    
+        </tr>
+        <tr>
+            <th>E-mail</th>
+            <th>maraltam@gmail.com</th>    
+        </tr>  
+    </table>    
+
+<!-- Formación   -->
+    <table border="3">
+        <tr>
+            <th rowspan="2" class="ccolor1" style="width:150px"> <h2>Formación</h2> </th>
+
+            <th> Técnico Superior en Análisis de Sistemas de Información: 
+                <br>   Título otorgado por Centro de Formación Profesional Nº38 de San Nicolás. </th>
+        </tr>
+        <tr>
+            <th>Técnico Superior en Programación: Título otorgado por
+                <br>
+                Centro de Formación Profesional Nº38 de San Nicolás.</th>
+        </tr>
+    </table> 
+
+        
+<!-- Experiencia  Profesional  -->
+<table border="3">
+    <tr>
+        <th rowspan="6" class="ccolor1" style="width:150px" > <h2>Experiencia  Profesional </h2> </th>
+        <th rowspan="2"  style="width:108px" > 2006 – 2023</th>
+        <th>  </th>
+              
+    </tr>
+    <tr>
+        <th >
+            U.T.N. – Facultad Regional San Nicolás
+            <br>
+            <br>
+            <ul> 
+                <li>Jefe de Departamento Sistematización de Datos.</li>  
+                <li>Project Manager de Sistema Administrativo - Contable SYSADMIM.</li> 
+                <li>Desarrollo de Sistemas en Visual Fox V9.0 con manejo de Bases de Datos e 
+                    interacción con SQL Server de sistemas externos, manejo de imágenes y envío 
+                    automático de e-mails.</li>
+            </ul>
+         </th>  
+    </tr>
+
+     <tr>
+        <th rowspan="2" > 2001 – 2006</th>
+     </tr>
+    <tr>
+        <th>
+            U.T.N. – Facultad Regional San Nicolás 
+            <br>
+            <br>   
+            <ul>  
+                <li>Administrador de Sistemas.</li> 
+                <li>Project Manager de Sistema Académico SYSACAD. </li> 
+            </ul>         
+         </th>  
+    </tr>     
+
+    <tr>
+        <th rowspan="2" >1992 – 2022</th>
+      </tr>
+    <tr>
+        <th>Municipalidad de San Nicolás
+          <br>
+          <br>
+          <ul>
+
+            <li>Manejo de Bases de Datos ORACLE</li>
+            <li>Desarrollo de Sistemas en Visual Fox Pro 9, desarrollo de procesos de 
+                importación y exportación de datos en distintos formatos (XLS, CSV, DBF, TXT, 
+                PDF, etc.)</li>
+            <li>Implementación de procesos de cobros vía VEP (Volante Electrónico de Pago), 
+                diseño e implementación de códigos de barras para la integración de procesos 
+                de cobros con AFIP (Administración Federal de Ingresos Públicos de la Nación)</li>
+            <li>Desarrollo de procesos de Integración, exportación e importación de 
+                información de cobros con servicios de recaudación de MercadoPago, Banco 
+                Provincia de Buenos Aires, Banco de la Nación Argentina, Tarjeta VISA, Red 
+                Banelco, Red Link, Pago Fácil, Rapipago, ProntoPago, etc.</li>
+            <li>Diseño de formularios con Crystal Report. </li>
+            <li>Análisis de Sistemas, desarrollo e implementación de sistemas varios</li>
+      
+         </ul>
+        </th>  
+    </tr>  
+<!-- Habilidades  -->    
+<table border="3">
+    <tr>
+        <th rowspan="2" class="ccolor1" style="width:150px"> <h2>Habilidades y conocimientos</h2> </th>
+
+        <th> 
+            <ul>
+                <li>Manejo de Bases de Datos SQL, MySql, etc.</li>
+                <li>Desarrollo de Sistemas en Microsoft VIsual Fox 9.0  (DBF y SQL)</li>
+                <li>Manejo de PL SQL</li>
+                <li>Administración de Bases de datos Microsoft SQL</li>
+                <li>Administración de Bases de datos ORACLE</li>
+                <li>Desarrollos en Quasar dev con manejo de bases de datos en MySql</li>
+            </ul>
+       </th>
+
+    </table>   
+
+</table> 
+
+  
+
+</body>
+</html>

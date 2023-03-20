@@ -1,0 +1,84 @@
+/* Estilos a utilizar en la web 
+El elemento  *  aplica a todo aquello que no se le especifica 
+*/
+
+* {
+    font-family: 'Kulim Park', sans-serif;
+    Color: #0a0a0a;
+    box-sizing: border-box;
+}
+
+h1 {
+    /* El font-family que se indica a continuación, 
+    se debe copiar desde https://fonts.google.com/ 
+    y pegar en el header */
+
+    font-family: 'Kulim Park', sans-serif;
+    align-self: auto ;
+    color: #332541;
+    font-weight: bold;
+    border: 15px ;
+    margin-bottom: 30px ;
+    padding: 50px lightblue;
+    border-style:inset ;
+}
+section {
+    width: 300;
+    border: 15px solid lightgreen;
+    padding: 50px;
+    margin: 20px;
+}
+/* El siguiente se llama con id:
+   Ej: 
+   <p id="formatodeparrafo"> Es un ejemplo </p> (Sólo anotación de ejemplo)
+    */
+#formatodeparrafo {
+    font-weight: bold;
+
+}
+
+/* Esta es una clase 
+Similar al anterior pero se lo llama con "class"
+  <p class="fmt_clase_1"> Es un ejemplo de formato con clases </p>
+*/
+
+.menu {
+     width: 25%;
+     float: left;
+}
+
+table {
+    width: 100%;
+   
+ }
+
+ th, td {
+    color:#083102;
+    width: 15% 25% 25%;
+    text-align: left;
+    vertical-align: top;
+ }
+ .ccolor1 {
+     width:150px;
+     /* background-color: #9be9b8 */
+     background: linear-gradient(#058c0c, #8fa18c);
+ }
+ .ccolor2 {
+    background: linear-gradient(to right,#058c0c, #8fa18c);
+}
+
+.bkcolor1 {
+    background: linear-gradient(#058c0c, #8fa18c);
+}
+.bkcolor2 {
+    background: linear-gradient(to right,#034b61, #8fa18c);
+}
+
+.foto1{
+    float:right; 
+    min-width: 110px;
+    width:10%;
+    height:10%;
+    background-image: url("../img/maraltam.jpg");
+}
+
